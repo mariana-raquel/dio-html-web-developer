@@ -1,13 +1,16 @@
 body {
     background-color: #ABC9E3;
-    font-family: 'Times New Roman', Times, serif 
+    font-family: 'Times New Roman', Times, serif; 
+    max-width: 900px;
+    margin: auto;
 }
 .foto {
     border: 3px solid #7178D0;
     border-radius: 50%;
     height: 100px;
     width: 150px;
-    margin-bottom: 5px;
+    margin: 0;
+    margin-top: 15px;
 }
 #titulo, .subtitulo, .post_titulo, .titulo_contatos {
     color: #5e40bf;
