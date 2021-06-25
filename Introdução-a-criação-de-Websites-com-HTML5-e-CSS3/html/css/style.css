@@ -1,5 +1,6 @@
 body {
     background-color: #ABC9E3;
+    font-family: 'Times New Roman', Times, serif 
 }
 .foto {
     border: 3px solid #7178D0;
@@ -11,8 +12,17 @@ body {
     color: #5e40bf;
 }
 
+#titulo {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
 .post_titulo {
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
@@ -29,6 +39,7 @@ body {
 .post_conteudo {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_imagem {
