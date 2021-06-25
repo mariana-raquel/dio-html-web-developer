@@ -7,14 +7,16 @@ body {
     border-radius: 50%;
     height: 100px;
     width: 150px;
+    margin-bottom: 5px;
 }
-#titulo, .subtitulo, .post_titulo {
+#titulo, .subtitulo, .post_titulo, .titulo_contatos {
     color: #5e40bf;
 }
 
 #titulo {
     font-size: 40px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 a {
@@ -46,3 +48,17 @@ a {
     margin-bottom: 15px;
 }
 
+.titulo_contatos {
+    padding-left: 15px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.lista_contatos {
+    list-style-type: square;
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.lista_contatos li a {
+    text-decoration: none;
+}
